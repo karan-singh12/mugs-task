@@ -1,16 +1,9 @@
-import Head from 'next/head';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/global.scss';
 
 function MyApp({ Component, pageProps }) {
-  return (
-    <>
-      <Head>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
-      </Head>
-      <Component {...pageProps} />
-    </>
-  );
+  return <Component {...pageProps} />;
 }
 
 export default MyApp;
