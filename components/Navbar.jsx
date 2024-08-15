@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <nav className={style.navbar}>
       <div className={style.logo}>
-        <img className={style.logoImg} src={'/logo.svg'} />
+        <img className={`${style.logoImg} img-fluid`} src={'/logo.svg'} />
       </div>
       <ul className={`${style.navLinks} ${isOpen ? style.open : ''}`}>
         <li><a href="#topSection">Home</a></li>

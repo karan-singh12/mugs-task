@@ -54,7 +54,7 @@ const Testimonial = ({ data = [] }) => {
       <div className={`${style.cards} m-auto`}>
         <Slider {...settings}>
           {data.map((contentObj, i) => (
-            <div key={i} className="p-3 m-auto">
+            <div key={i} className="p-1 m-auto">
               <CarouselCard img={contentObj.img} name={contentObj.name} content={contentObj.content} position={contentObj.position} />
             </div>
           ))}

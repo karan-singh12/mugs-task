@@ -4,7 +4,7 @@ import style from '../styles/topSection.module.scss'
 
 const TopSection = () => {
   return (
-    <div className={style.topSection} id='topSection'>
+    <div className={`${style.topSection} container`} id='topSection'>
       <div className={style.content}>
         <h2>Hi I am </h2>
         <spain>Muhammad Umair </spain>
@@ -13,7 +13,7 @@ const TopSection = () => {
         <Button>Hire Me</Button>
       </div>
       <div className={style.imageSection}>
-        <img src={'/topSection.svg'}/>
+        <img  src={'/topSection.svg'}/>
         <div className={style.orangeDiv}></div>
         <img className={style.icons} src={'/SocialMediaBlack.png'}/>
       </div>

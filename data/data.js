@@ -1,8 +1,8 @@
 export const projectData = {
   All: [
     { img: '/Project2.png', type: 'Web Development', name: 'Business Landing Page Design' },
-    { img: '/project1.png', type: 'Mobile App', name: 'AirCalling Landing Page Design ' },
-    { img: '/project3.png', type: 'Data Analysis', name: 'Ecom Web Page Design' }
+    { img: '/Project1.png', type: 'Mobile App', name: 'AirCalling Landing Page Design ' },
+    { img: '/Project3.png', type: 'Data Analysis', name: 'Ecom Web Page Design' }
   ],
   UX: [
     { img: '/Project2.png', type: 'UI/UX Design', name: 'Business Landing Page Design' },
