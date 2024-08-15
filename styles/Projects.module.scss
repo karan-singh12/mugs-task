@@ -1,0 +1,64 @@
+.projects {
+  padding: 2rem;
+  text-align: center;
+
+  h1{
+    font-size: 65px;
+  }
+  p{
+    font-size: 21px;
+  }
+}
+
+
+
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  
+    .activeButton {
+      background-color: #FD6F00; 
+      color: white;
+      border: none;
+      border-radius: 12px;
+    }
+  
+    .inactiveButton {
+      background-color: #f0f0f0;
+      color: black;
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      padding: 0px;
+    }
+  }
+  
+
+
+
+.projectList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 30px;
+  
+  .projectType {
+    color: #FD6F00;
+    font-weight: 400;
+    font-size: 19px; 
+   }
+
+  h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
+
+.projectImage {
+  width: 100%;
+  height: auto;
+}
+
+

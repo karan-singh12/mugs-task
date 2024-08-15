@@ -1,0 +1,83 @@
+.About {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+  gap: 2rem;
+
+  h1{
+    font-size: 65px;
+  }
+  p{
+    font-size: 21px;
+  }
+}
+
+.AboutImage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+
+  .orangeDiv{
+    width: 374px;
+    height: 83px;
+    background-color: #FD6F00;
+    opacity: 0.6;
+    position: absolute;
+    margin-top: 112px;
+  }
+}
+
+.AboutContent {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.draggableSkillBar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.skillName {
+  font-weight: 500;
+}
+
+.progressContainer {
+  position: relative;
+  height: 12px;
+  background-color: #EDECEC;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.progress {
+  height: 100%;
+  background-color: #FD6F00;
+  border-radius: 8px;
+  position: relative;
+}
+
+.progressEnd {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  background-color: #EDECEC; 
+  border-radius: 50%;
+  border: 3px solid #FD6F00;
+  cursor: pointer;
+  box-shadow: 0px 4px 7px 0px #00000033;
+   right: -16px;
+
+}
